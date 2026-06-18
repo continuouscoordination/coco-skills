@@ -128,3 +128,16 @@ Two things to watch when crossing platforms:
 ### Submit to Steady
 
 Use the **`steady-api`** or **`steady-cli`** skill, or the Steady MCP server. Note Steady's check-ins are PATCH-only (pre-generated, addressed by date), and its goal updates default `progress`/`confidence` to the prior update's values — see `steady-api` for those quirks.
+
+Those skills live in a separate repo — [`steadyspacecorp/steady-skills`](https://github.com/steadyspacecorp/steady-skills). If they aren't installed:
+
+```
+# Claude Code
+/plugin marketplace add steadyspacecorp/steady-skills
+/plugin install steady-skills
+
+# Agent Skills hosts (Codex, Cursor, …)
+npx skills add steadyspacecorp/steady-skills -g
+```
+
+The [Steady MCP server](https://runsteady.com/mcp) is an alternative when you'd rather Claude write to Steady through tool calls than generate API/CLI code.

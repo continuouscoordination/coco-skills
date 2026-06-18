@@ -1,4 +1,4 @@
-# Continuous Coordination Skills
+# Continuous Coordination Skills  
 
 Skills for working with [Continuous Coordination](https://continuouscoordination.org) from AI-powered tools.
 
