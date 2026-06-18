@@ -1,0 +1,19 @@
+{
+  "name": "coco-skills",
+  "interface": {
+    "displayName": "Continuous Coordination Skills"
+  },
+  "plugins": [
+    {
+      "name": "coco-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

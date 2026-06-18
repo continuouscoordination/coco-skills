@@ -1,0 +1,24 @@
+{
+  "name": "coco-skills",
+  "owner": {
+    "name": "Continuous Coordination",
+    "url": "https://continuouscoordination.org"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the Continuous Coordination skills plugin."
+  },
+  "plugins": [
+    {
+      "name": "coco-skills",
+      "description": "Skills for Continuous Coordination from AI-powered tools — write code against a CoCo reference server, and compose clear team check-ins and goal story updates for a CoCo server or Steady.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Continuous Coordination",
+        "url": "https://continuouscoordination.org"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/continuouscoordination/coco-skills"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "coco-skills",
+  "version": "1.0.0",
+  "description": "Skills for Continuous Coordination from AI-powered tools — write code against a CoCo reference server, and compose clear team check-ins and goal story updates for a CoCo server or Steady.",
+  "author": {
+    "name": "Continuous Coordination",
+    "url": "https://continuouscoordination.org"
+  },
+  "homepage": "https://github.com/continuouscoordination/coco-skills",
+  "repository": "https://github.com/continuouscoordination/coco-skills",
+  "license": "MIT",
+  "keywords": ["continuous-coordination", "check-ins", "goal-stories", "standup", "api", "postgrest", "updates"]
+}
